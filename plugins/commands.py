@@ -423,7 +423,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await asyncio.sleep(1)
             await m.delete()
         
-            xo = await query.message.reply_text(f'👾')
+            xo = await query.message.reply_text(f'🔐')
             await asyncio.sleep(1)
             await xo.delete()
             
