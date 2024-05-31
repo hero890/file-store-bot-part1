@@ -432,9 +432,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 text="•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ☠︎⚔",
                 quote=True,
                 disable_web_page_preview=True,
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url= download)],  # we download Link
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url='https://t.me/what_if_season_2_hindi_dubb')],  # we download Link
                                                 [
-                                                    InlineKeyboardButton('🖥️ Watch online 🖥️', url= stream)],  # web stream Link
+                                                    InlineKeyboardButton('🖥️ Watch online 🖥️', url='https://t.me/Marvel_i_d_f_h_n_hindi')],  # web stream Link
                                                [
                                                     InlineKeyboardButton('📁 Want File again ', url='https://t.me/aapna_Movies')],
                                                [
