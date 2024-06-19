@@ -27,14 +27,14 @@ API_HASH = environ.get("API_HASH", "0ff15ae2153bd8e03b48cb293010bc6a")
 ADMINS = int(environ.get("ADMINS", "6287591671"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://thahero196:lP9Fb6aKL7T0y47U@cluster0.whs2bkj.mongodb.net/?retryWrites=true&w=majority")
-CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://TechHero:@TechHero@techhero.zbozfec.mongodb.net/?retryWrites=true&w=majority&appName=TechHero")
+CDB_NAME = environ.get("CDB_NAME", "TechHero")
 DB_URI = environ.get("DB_URI", "mongodb+srv://rani828719:sVyRWZOrUzIWNfHp@cluster0.zodktob.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = environ.get("DB_NAME", "vjbotz")
+DB_NAME = environ.get("DB_NAME", "TechHero2")
 
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "6313485501:AAGURPPXiS4BPUsRPDzYM5H66KWiZCn_7Cw")
+BOT_TOKEN = environ.get("BOT_TOKEN", "6313485501:AAFNnCZgzpgj3Nr4i_KLluC8Meji7xlHWAk")
 BOT_USERNAME = environ.get("BOT_USERNAME", "what_if_dubb_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/66604e5911df5a0c43ffa.jpg https://te.legra.ph/file/66604e5911df5a0c43ffa.jpg')).split() # Bot Start Picture
 
@@ -63,12 +63,12 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 # File Stream Config
 class Var(object):
     MULTI_CLIENT = False
-    name = str(getenv('name', 'filetolinkvjbot'))
+    name = str(getenv('name', '@what_if_dubb_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002016613151'))
     PORT = int(getenv('PORT', 8080))
-    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
+    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0/0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
