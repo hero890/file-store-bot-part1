@@ -34,7 +34,7 @@ DB_NAME = environ.get("DB_NAME", "TechHero2")
 
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "6313485501:AAFNnCZgzpgj3Nr4i_KLluC8Meji7xlHWAk")
+BOT_TOKEN = environ.get("BOT_TOKEN", "6313485501:AAFCDPrVhw5EsUdEWljNkrZSTXGqd7tO3j0")
 BOT_USERNAME = environ.get("BOT_USERNAME", "what_if_dubb_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/66604e5911df5a0c43ffa.jpg https://te.legra.ph/file/66604e5911df5a0c43ffa.jpg')).split() # Bot Start Picture
 
